@@ -1,0 +1,58 @@
+package com.mmit.fileupload;
+
+import java.io.File;
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.Part;
+
+@WebServlet("/register")
+@MultipartConfig
+public class UserController extends HttpServlet{
+
+	private static final long serialVersionUID = 1L;
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		// get request data
+		String username=req.getParameter("name");
+		String email=req.getParameter("email");
+		Part imgPart=req.getPart("photo"); // file data
+		
+		String imgFileName=imgPart.getSubmittedFileName(); // user.jpg
+		
+		
+		// create user object
+		Users newUser=new Users();
+		
+		
+		// add data to user object
+		newUser.setEmail(email);
+		newUser.setProfile(imgFileName);
+		newUser.setUsername(username);
+		
+		
+		// add user object to request scope
+		req.setAttribute("userinfo", newUser);
+		
+		// save  client upload file in server
+		String rootPath=getServletContext().getRealPath("");
+		String dirPath=rootPath+File.separator+"imgUploads";
+		
+		File rootDir=new File(dirPath);
+		if(!rootDir.exists()) // check already exist imgUploads folder
+			rootDir.mkdirs();
+		System.out.println("path: "+rootPath);
+		
+		// invoke other web resource to display data
+		display data.getServletContext().getRequestDispatcher("/diplay.jsp").forward(req, resp);		
+		
+	}
+
+}

@@ -1,0 +1,72 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>Add New Product</h3>
+	<form action="create-product.jsp">
+		<table>
+			<tr>
+				<td>Name</td>
+				<td>
+					<input type="text" name="name"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Price</td>
+				<td>
+					<input type="number" name="price"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Category Name</td>
+				<td>
+					<input type="text" name="catName" />
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<button type="submit">Add New Product</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+	
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col-6 offset-3">
+				<div class="card">
+				<div class="card-header">
+					<h3>Register Form</h3>
+				</div>
+				<div class="card-body">
+					<form action="register" class="form" method="post">
+						<div class="form-group">
+							<label for="">Login Name</label>
+							<input type="text" name="uname" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label for="">Email</label>
+							<input type="email" name="email" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label for="">Phone</label>
+							<input type="text" name="phone" class="form-control" />
+						</div>
+						
+						<button type="submit" class="btn btn-info">Register</button>
+						<button type="reset" class="btn btn-danger">Clear</button>
+					</form>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

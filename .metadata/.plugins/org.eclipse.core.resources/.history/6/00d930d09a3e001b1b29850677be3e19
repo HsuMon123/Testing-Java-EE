@@ -1,0 +1,9 @@
+package com.mmit;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/another")
+public class HelloAnotherServlet extends HttpServlet{
+
+}

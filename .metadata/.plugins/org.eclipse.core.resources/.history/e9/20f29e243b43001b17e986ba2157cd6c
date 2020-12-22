@@ -1,0 +1,9 @@
+package com.mmit.entity;
+
+public class Course {
+	private String name;
+	private String level;
+	private int price;
+	private int duration;
+	private LocalDate date;
+}

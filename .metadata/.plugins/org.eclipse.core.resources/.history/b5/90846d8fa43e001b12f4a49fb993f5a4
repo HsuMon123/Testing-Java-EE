@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+<link href="./common/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="./common/js/jquery.min.js"></script>
+<script type="text/javascript" src="./common/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+		
+		</div>
+	</div>
+
+
+	<form action="login" method="post">
+		<table>"src/main/webapp/common/css/bootstrap.min.css"
+			<tr>
+				<td>Login Name</td>
+				<td>
+					<input type="text" name="uname"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Login Password</td>
+				<td>
+					<input type="password" name="upass" />
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" value="Login" />
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

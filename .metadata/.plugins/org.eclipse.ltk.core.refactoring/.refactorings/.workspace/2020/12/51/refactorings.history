@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;03-Servlet&apos; to &apos;03-Servlet-Scope&apos;" description="Rename resource &apos;03-Servlet&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/03-Servlet" name="03-Servlet-Scope" stamp="1608192706646" updateReferences="true"/>
+</session>

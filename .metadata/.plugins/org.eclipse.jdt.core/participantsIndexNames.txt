@@ -1,0 +1,17 @@
+INDEX VERSION 1.131
+C:\Testing JavaEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2008541553.index
+\03-Servlet\src\main\java
+C:\Testing JavaEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2571481746.index
+\03-Servlet-Scope\src\main\java
+C:\Testing JavaEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\215837767.index
+\06-EL-JSTL\src\main\java
+C:\Testing JavaEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2506206778.index
+\07-Servlet-File-Upload\src\main\java
+C:\Testing JavaEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3894283721.index
+\06-EL-JSTL\src\main\java
+C:\Testing JavaEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1910550301.index
+\04-jsp-java-bean\src\main\java
+C:\Testing JavaEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3376355123.index
+\05-EL\src\main\java
+C:\Testing JavaEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4176388437.index
+\02-hello-servlet\src\main\java
