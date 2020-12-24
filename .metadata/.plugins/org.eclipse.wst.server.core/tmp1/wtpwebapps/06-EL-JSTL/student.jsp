@@ -22,7 +22,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<table class="table table-info border-dark">
+		<table class="table  border-dark">
 			<tr>
 					<th>Photo</th>
 					<th>Name</th>

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Testing JavaEE\08-jpa"/>
 			<item value="C:\Testing JavaEE\02-hello-servlet"/>
 			<item value="C:\Testing JavaEE\011-hello-jee"/>
 		</list>
@@ -50,6 +51,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="008-jpa"/>
 			<item value="04-jsp-java-bean"/>
 			<item value="02-hello-servlet"/>
 		</list>
@@ -63,6 +65,7 @@
 		</list>
 		<list key="version">
 			<item value="1.0"/>
+			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
@@ -82,5 +85,11 @@
 		<item key="height" value="667"/>
 		<item key="x" value="720"/>
 		<item key="y" value="71"/>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.EditDependencyDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="450"/>
+		<item key="x" value="720"/>
+		<item key="y" value="215"/>
 	</section>
 </section>

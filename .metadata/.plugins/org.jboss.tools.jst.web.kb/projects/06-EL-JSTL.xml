@@ -2,40 +2,107 @@
 <kb-project>
  <depends-on-projects/>
  <used-by-projects/>
- <paths/>
+ <paths>
+  <path value="C:/Users/User/.m2/repository/jakarta/platform/jakarta.jakartaee-api/8.0.0/jakarta.jakartaee-api-8.0.0.jar"/>
+  <path value="C:/Users/User/.m2/repository/jakarta/servlet/jsp/jakarta.servlet.jsp-api/2.3.6/jakarta.servlet.jsp-api-2.3.6.jar"/>
+  <path value="C:/Users/User/.m2/repository/jakarta/servlet/jakarta.servlet-api/4.0.4/jakarta.servlet-api-4.0.4.jar"/>
+  <path value="C:/Users/User/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="07-Servlet-File-Upload"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="07-Servlet-File-Upload"/>
+    </library>
+   </libraries>
+  </path>
+ </paths>
  <validation>
   <core validator-id="jsf-verification"/>
-  <core validator-id="jboss.cdi.core"/>
   <core validator-id="batch-verification"/>
   <core validator-id="jboss.jsf.core"/>
   <el>
    <linked-el length="23" name="%0" offset="1170" path="%1"/>
-   <linked-el length="16" name="%2" offset="1143" path="%3"/>
-   <linked-el length="17" name="%2" offset="1175" path="%3"/>
-   <linked-el length="19" name="%2" offset="1271" path="%3"/>
-   <linked-el length="16" name="%2" offset="1208" path="%3"/>
-   <linked-el length="15" name="%2" offset="1240" path="%3"/>
-   <linked-el length="23" name="%2" offset="1306" path="%3"/>
-   <linked-el length="44" name="%2" offset="1046" path="%3"/>
-   <linked-el length="14" name="%2" offset="619" path="%4"/>
+   <linked-el length="14" name="%2" offset="619" path="%3"/>
+   <linked-el length="23" name="%2" offset="1296" path="%4"/>
+   <linked-el length="44" name="%2" offset="1036" path="%4"/>
+   <linked-el length="16" name="%2" offset="1133" path="%4"/>
+   <linked-el length="17" name="%2" offset="1165" path="%4"/>
+   <linked-el length="19" name="%2" offset="1261" path="%4"/>
+   <linked-el length="16" name="%2" offset="1198" path="%4"/>
+   <linked-el length="15" name="%2" offset="1230" path="%4"/>
    <linked-el length="23" name="%2" offset="1170" path="%1"/>
    <linked-el length="16" name="%2" offset="1007" path="%1"/>
    <linked-el length="17" name="%2" offset="1039" path="%1"/>
    <linked-el length="16" name="%2" offset="1103" path="%1"/>
    <linked-el length="19" name="%2" offset="1135" path="%1"/>
    <linked-el length="15" name="%2" offset="1072" path="%1"/>
-   <linked-el length="18" name="%5" offset="984" path="%3"/>
+   <linked-el length="18" name="%5" offset="974" path="%4"/>
    <linked-el length="71" name="%6" offset="1505" path="%7"/>
    <linked-el length="42" name="%6" offset="720" path="%7"/>
    <linked-el length="63" name="%6" offset="1248" path="%7"/>
    <linked-el length="71" name="%6" offset="998" path="%7"/>
-   <linked-el length="17" name="%8" offset="1175" path="%3"/>
+   <linked-el length="17" name="%8" offset="1165" path="%4"/>
    <linked-el length="17" name="%8" offset="1039" path="%1"/>
    <linked-el length="19" name="%9" offset="1075" path="%10"/>
-   <linked-el length="15" name="%11" offset="1240" path="%3"/>
+   <linked-el length="15" name="%11" offset="1230" path="%4"/>
    <linked-el length="15" name="%11" offset="1072" path="%1"/>
    <linked-el length="16" name="%12" offset="1581" path="%7"/>
-   <linked-el length="44" name="%13" offset="1046" path="%3"/>
+   <linked-el length="44" name="%13" offset="1036" path="%4"/>
    <linked-el length="20" name="%14" offset="1110" path="%10"/>
    <linked-el length="15" name="%15" offset="1074" path="%7"/>
    <linked-el length="16" name="%16" offset="1011" path="%10"/>
@@ -47,23 +114,23 @@
    <linked-el length="10" name="%18" offset="628" path="%10"/>
    <linked-el length="10" name="%18" offset="634" path="%1"/>
    <linked-el length="10" name="%18" offset="814" path="%17"/>
-   <linked-el length="16" name="%19" offset="1208" path="%3"/>
+   <linked-el length="16" name="%19" offset="1198" path="%4"/>
    <linked-el length="16" name="%19" offset="1103" path="%1"/>
    <linked-el length="10" name="%20" offset="518" path="%7"/>
    <linked-el length="12" name="%21" offset="379" path="%7"/>
    <linked-el length="17" name="%22" offset="955" path="%1"/>
    <linked-el length="15" name="%23" offset="980" path="%10"/>
-   <linked-el length="19" name="%24" offset="1271" path="%3"/>
+   <linked-el length="19" name="%24" offset="1261" path="%4"/>
    <linked-el length="19" name="%24" offset="1135" path="%1"/>
-   <linked-el length="17" name="%25" offset="640" path="%3"/>
+   <linked-el length="17" name="%25" offset="640" path="%4"/>
    <linked-el length="16" name="%26" offset="1011" path="%10"/>
-   <linked-el length="16" name="%27" offset="1143" path="%3"/>
+   <linked-el length="16" name="%27" offset="1133" path="%4"/>
    <linked-el length="16" name="%27" offset="1007" path="%1"/>
    <linked-el length="10" name="%28" offset="461" path="%7"/>
    <linked-el length="16" name="%29" offset="1043" path="%10"/>
-   <linked-el length="17" name="%30" offset="822" path="%4"/>
+   <linked-el length="17" name="%30" offset="822" path="%3"/>
    <linked-el length="17" name="%31" offset="929" path="%10"/>
-   <linked-el length="23" name="%32" offset="1306" path="%3"/>
+   <linked-el length="23" name="%32" offset="1296" path="%4"/>
   </el>
  </validation>
  <aliases>
@@ -77,8 +144,8 @@
   <alias path="student.age" value="%11"/>
   <alias path="studentAdd" value="%12"/>
   <alias path="student.profile" value="%13"/>
-  <alias path="/06-EL-JSTL/src/main/webapp/student.jsp" value="%3"/>
-  <alias path="/06-EL-JSTL/src/main/webapp/student-add.jsp" value="%4"/>
+  <alias path="/06-EL-JSTL/src/main/webapp/student.jsp" value="%4"/>
+  <alias path="/06-EL-JSTL/src/main/webapp/student-add.jsp" value="%3"/>
   <alias path="course.startDate" value="%14"/>
   <alias path="courseAdd" value="%15"/>
   <alias path="course" value="%16"/>
@@ -102,5 +169,9 @@
   <alias path="student.dateOfBirth" value="%32"/>
  </aliases>
  <includes/>
- <uris/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+ </uris>
 </kb-project>

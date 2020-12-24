@@ -59,3 +59,25 @@ Dec 22, 2020 09:50:14.704 [2332:9728:1222/095014.704:ERROR:get_updates_processor
 Dec 22, 2020 09:50:17.70 [2332:6072:1222/095017.069:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
 Dec 22, 2020 09:51:04.999 [2332:6072:1222/095104.999:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
 Dec 22, 2020 09:51:30.459 [2332:7272:1222/095130.458:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+
+Dec 22, 2020 15:19:23.356 NEW SESSION
+Dec 22, 2020 15:19:23.356 [10724:5952:1222/151923.330:ERROR:device_event_log_impl.cc(211)] [15:19:23.330] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Dec 22, 2020 15:19:23.601 [10724:5952:1222/151923.332:ERROR:device_event_log_impl.cc(211)] [15:19:23.332] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Dec 22, 2020 15:28:50.615 [1222/152850.601:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Dec 22, 2020 21:21:23.898 [10724:5952:1222/212123.031:ERROR:device_event_log_impl.cc(211)] [21:21:23.031] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Dec 23, 2020 11:18:23.828 [10724:5952:1223/111823.826:ERROR:device_event_log_impl.cc(211)] [11:18:23.826] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Dec 23, 2020 11:18:56.73 [10724:6872:1223/111845.554:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 23, 2020 11:18:56.400 [10724:1988:1223/111845.667:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Dec 23, 2020 11:19:09.257 [10724:6872:1223/111909.256:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 23, 2020 11:19:31.277 [10724:10456:1223/111931.276:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Dec 23, 2020 11:19:55.268 [10724:6872:1223/111955.268:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 23, 2020 11:20:39.289 [10724:11568:1223/112039.288:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Dec 23, 2020 11:21:52.968 [10724:6872:1223/112152.968:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 23, 2020 11:22:21.308 [10724:7516:1223/112221.308:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Dec 23, 2020 11:47:16.637 [10724:6872:1223/114716.494:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 23, 2020 11:47:17.181 [10724:5952:1223/114717.130:ERROR:device_event_log_impl.cc(211)] [11:47:17.131] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Dec 23, 2020 11:47:27.964 [10724:6872:1223/114727.957:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Dec 23, 2020 11:48:28.737 [10724:6872:1223/114828.736:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 23, 2020 11:49:29.189 [10724:6872:1223/114929.188:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Dec 23, 2020 11:49:32.473 [10724:6872:1223/114932.472:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Dec 23, 2020 11:55:03.398 [10724:6872:1223/115503.398:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105

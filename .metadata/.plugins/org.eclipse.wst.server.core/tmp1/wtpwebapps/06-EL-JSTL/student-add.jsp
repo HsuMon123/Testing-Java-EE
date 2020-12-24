@@ -36,10 +36,7 @@
 					<input type="text" name="email" required="required" placeholder="Enter your email" class="form-control" />
 				</div>
 				
-				<div class="form-group">
-					<label> Photo</label>
-					<input type="file" name="photo" class="form-control" />
-				</div>
+				
 				
 				<div class="form-group">
 					<label for="year">Year</label>
@@ -65,6 +62,10 @@
 				<div class="form-group">
 					<label>Date of birth</label>
 					<input type="date" name="date" required="required" class="form-control" />
+				</div>
+				<div class="form-group">
+					<label> Photo</label>
+					<input type="file" name="photo" class="form-control" />
 				</div>
 				<div class="form-group">
 						<button type="submit" class="btn btn-outline-primary">Save</button>

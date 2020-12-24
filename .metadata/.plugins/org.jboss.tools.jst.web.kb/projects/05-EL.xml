@@ -72,7 +72,6 @@
  </paths>
  <validation>
   <core validator-id="jsf-verification"/>
-  <core validator-id="jboss.cdi.core"/>
   <el>
    <linked-el length="15" name="%0" offset="1028" path="%1"/>
    <linked-el length="17" name="%0" offset="562" path="%1"/>
